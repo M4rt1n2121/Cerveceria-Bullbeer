@@ -1,0 +1,35 @@
+
+.logo_variedades{
+    width: 50%;
+    background-size: contain;}
+    .contenedor-grid-2 img{
+        width: 80%;
+        height: 80%;
+        border-radius: 35px 35px 35px 35px;
+        -webkit-border-radius: 35px 35px 35px 35px;
+        -moz-border-radius: 35px 35px 35px 35px;
+        box-shadow: 35px 19px 31px 4px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 35px 19px 31px 4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 35px 19px 31px 4px rgba(0,0,0,0.75);}
+    .contenedor-grid-2{    
+        display:grid ;
+        grid-template-areas: 
+        "imagen3 imagen3 texto4"
+        "texto5 imagen4 imagen4"
+        "imagen5 imagen5 texto6";
+        /*cantidad y ancho de cada columna, 1 valor por cada columna*/
+        grid-template-columns: 25% 40% 25%;
+        /*cantidad y el alto de cada fila, 1 valor por cada fila*/ 
+        grid-template-rows: repeat(3,400px);
+        justify-content: center;
+        /*eje horizontal*/
+        justify-items: center;
+        /*eje vertical*/
+        align-items: center;}
+    .grid-titulo{grid-area: titulo;}
+    .grid-texto4{grid-area: texto4;}
+    .grid-texto5{grid-area: texto5;}
+    .grid-texto6{grid-area: texto6;}
+    .grid-img-3{grid-area: imagen3;}
+    .grid-img-4{grid-area: imagen4;}
+    .grid-img-5{grid-area: imagen5;}

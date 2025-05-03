@@ -1,0 +1,365 @@
+/*font*/
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
+/*font-family: "Boldonse", system-ui;*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Boldonse", system-ui;
+  line-height: 1.6;
+  background-color: rgba(222, 224, 70, 0.8078431373);
+  color: #333;
+}
+
+.contenedor-grid-1 img {
+  width: 80%;
+  height: 80%;
+  border-radius: 35px 35px 35px 35px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  -moz-border-radius: 35px 35px 35px 35px;
+  box-shadow: 35px 19px 31px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 35px 19px 31px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 35px 19px 31px 4px rgba(0, 0, 0, 0.75);
+}
+
+.contenedor-grid-1 {
+  display: grid;
+  grid-template-areas: "imagen1 texto1" "imagen1 texto2" "texto3 imagen2";
+  grid-template-columns: 40% 40%;
+  grid-template-rows: repeat(5, 300px);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-img-1 {
+  grid-area: imagen1;
+}
+
+.grid-img-2 {
+  grid-area: imagen2;
+}
+
+.grid-texto-1 {
+  grid-area: texto1;
+}
+
+.grid-texto-2 {
+  grid-area: texto2;
+}
+
+.grid-texto-3 {
+  grid-area: texto3;
+}
+
+section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.logo-black {
+  width: 10%;
+  margin-top: 20px;
+}
+
+.origen {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.produccion {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.importancia {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.proceso {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.maceracion {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 17px 11px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hervido {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 17px 11px 4px rgba(0, 0, 0, 0.6);
+}
+
+.fermentacion {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 17px 11px 4px rgba(0, 0, 0, 0.6);
+}
+
+.logo_variedades {
+  width: 50%;
+  background-size: contain;
+}
+
+.contenedor-grid-2 img {
+  width: 80%;
+  height: 80%;
+  border-radius: 35px 35px 35px 35px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  -moz-border-radius: 35px 35px 35px 35px;
+  box-shadow: 35px 19px 31px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 35px 19px 31px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 35px 19px 31px 4px rgba(0, 0, 0, 0.75);
+}
+
+.contenedor-grid-2 {
+  display: grid;
+  grid-template-areas: "imagen3 imagen3 texto4" "texto5 imagen4 imagen4" "imagen5 imagen5 texto6";
+  /*cantidad y ancho de cada columna, 1 valor por cada columna*/
+  grid-template-columns: 25% 40% 25%;
+  /*cantidad y el alto de cada fila, 1 valor por cada fila*/
+  grid-template-rows: repeat(3, 400px);
+  justify-content: center;
+  /*eje horizontal*/
+  justify-items: center;
+  /*eje vertical*/
+  align-items: center;
+}
+
+.grid-titulo {
+  grid-area: titulo;
+}
+
+.grid-texto4 {
+  grid-area: texto4;
+}
+
+.grid-texto5 {
+  grid-area: texto5;
+}
+
+.grid-texto6 {
+  grid-area: texto6;
+}
+
+.grid-img-3 {
+  grid-area: imagen3;
+}
+
+.grid-img-4 {
+  grid-area: imagen4;
+}
+
+.grid-img-5 {
+  grid-area: imagen5;
+}
+
+.form {
+  background-color: beige;
+  width: 90%;
+  max-width: 400px;
+}
+
+.form_input {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_cta {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  background-color: #6a9dfc;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+
+#logo {
+  max-width: 400px;
+  margin: 20px;
+}
+
+#form {
+  font-family: "Boldonse", system-ui;
+  line-height: 1.6;
+  background-color: rgba(224, 188, 70, 0.8078431373);
+  color: #333;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+header {
+  background-color: #6a9dfc;
+  color: rgb(2, 3, 88);
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Imagen del banner */
+header .Banner {
+  margin: 30px;
+  width: 30%;
+  max-height: 800px;
+  object-fit: contain;
+}
+
+footer {
+  background-color: #6a9dfc;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.facebook {
+  float: left;
+  width: 50px;
+  max-height: 50px;
+}
+
+.facebook:hover {
+  transform: scale(1.2);
+}
+
+.instagram {
+  float: left;
+  width: 50px;
+  max-height: 50px;
+}
+
+.instagram:hover {
+  transform: scale(1.2);
+}
+
+.wplogo {
+  width: 60px;
+  max-height: 60px;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.wplogo:hover {
+  transform: scale(1.2);
+}
+
+.copyrigth {
+  float: right;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media (max-width: 480px) {
+  header .Banner {
+    width: 80%;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .contenedor-grid-1 {
+    grid-template-areas: "imagen1" "texto1" "texto2" "imagen2" "texto3";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+  }
+  .contenedor-grid-2 {
+    grid-template-areas: "titulo" "imagen3" "texto4" "imagen4" "texto5" "imagen5" "texto6";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+  }
+  .form {
+    width: 100%;
+    padding: 2em 1em;
+  }
+  .logo-black {
+    width: 40%;
+  }
+  footer {
+    padding: 20px 0;
+  }
+  .facebook,
+  .instagram {
+    width: 40px;
+    max-height: 40px;
+  }
+  .wplogo {
+    width: 50px;
+    max-height: 50px;
+    bottom: 50px;
+    right: 10px;
+  }
+}
+/*table*/
+@media (min-width: 481px) and (max-width: 769px) {
+  header .Banner {
+    width: 50%;
+  }
+  nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .contenedor-grid-1 {
+    grid-template-areas: "imagen1 texto1" "imagen1 texto2" "texto3 imagen2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+  .contenedor-grid-2 {
+    grid-template-areas: "titulo titulo" "imagen3 texto4" "texto5 imagen4" "imagen5 texto6";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+  .form {
+    width: 80%;
+    padding: 2.5em 1.5em;
+  }
+  .logo-black {
+    width: 15%;
+  }
+  footer {
+    padding: 30px 0;
+  }
+  .facebook,
+  .instagram {
+    width: 45px;
+    max-height: 45px;
+  }
+  .wplogo {
+    width: 55px;
+    max-height: 55px;
+    bottom: 60px;
+    right: 15px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!--CSS vinculado a SCSS-->
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Bullbeer Cerveza Artesanal</title>   
+</head>
+<!--Encabezado del titulo-->
+<header>
+    <!--Logo-->
+    <img class="Banner" src="./MEDIOS/logo_transparent_background.png" alt="Banner">
+    <!--Menu de Navegacion-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">BULLBEER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./HTML/historia.html">Historia de la Cerveza</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="./HTML/proceso.html">Proceso de Fabricación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./HTML/variedades.html">Nuestras Variedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./HTML/contacto.html">Contacto</a>
+              </li>       
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>
+<!--Cuerpo-->
+<body>
+    <section class="contenedor-grid-1">
+        <p class="grid-texto1"> Bullbeer es una cerveceria artesanal la cual nace en el año 2019 en la ciudad de Progreso, departamento de Canelones, Uruguay.
+        En un rincón donde el tiempo se funde con la espuma, donde el lúpulo baila con el viento y la malta susurra historias, se alza la cervecería, un templo de fuego y alquimia, donde manos pacientes moldean el oro líquido de la tierra.</p>
+        <p class="grid-texto2"> Aquí, el agua canta en los calderos de cobre, los granos despiertan en un abrazo tibio de hervor, y el lúpulo, alma verde de la espuma, deja su esencia en cada sorbo, en cada memoria. Las barricas susurran secretos en la penumbra, madurando el tiempo en notas de madera y miel, y en cada vaso servido, una historia nace, un brindis se eleva, una amistad florece.</p>
+        <p class="grid-texto3"> Es más que cerveza, es un arte, un ritual, una oda a la paciencia, a la pasión, a la tierra misma. Porque en esta cervecería artesanal, cada gota es un poema dorado esperando ser contado.</p>
+        <img class="grid-img-1" src="./MEDIOS/Cerveceria.jpg" alt=""> 
+        <img class="grid-img-2" src="./MEDIOS/Barra.jpg" alt="">
+    </section>
+    <!--Script de bootstrap-->   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+<!--Pie de pagina-->
+<footer>
+    <section>
+        <div>
+            <p class="Copyrigth">2025, Pagina creada por Martin Machin</p>
+        </div>
+        
+    <a href="https://www.facebook.com/tu-pagina-de-facebook">
+        <img class="Facebook" src="./MEDIOS/facebook.png" alt="Facebook">
+    <a href="https://www.instagram.com/bullbeeruy/">    
+        <img class="instagram" src="./MEDIOS/instagram.png" alt="instagram">
+    <a href="https://web.whatsapp.com/">
+        <img class="wplogo" src="./MEDIOS/lof flotante wp.png" alt="logowp">       
+    </section>
+</footer>
+</html>

@@ -1,0 +1,42 @@
+
+header {
+    background-color: #6a9dfc;
+    color: rgb(2, 3, 88);
+    padding: 40px 0;
+    text-align: center;}
+/* Imagen del banner */
+header .Banner {
+    margin: 30px;
+    width: 30%;
+    max-height: 800px;
+    object-fit: contain;}
+footer {
+        background-color: #6a9dfc;
+        padding: 40px 0;
+        text-align: center;}
+    .facebook{
+        float: left;
+        width: 50px;
+        max-height: 50px;}
+    .facebook:hover{
+        transform: scale(1.2)}
+    .instagram{
+        float: left;
+        width: 50px;
+        max-height: 50px;}
+    .instagram:hover{
+        transform: scale(1.2)}
+    .wplogo{    
+        width: 60px;
+        max-height: 60px;
+        position: fixed;
+        bottom: 70px;
+        right: 20px;
+        z-index: 1000;
+        transition: transform  0.3s ease;}
+    .wplogo:hover{
+        transform: scale(1.2)}
+    .copyrigth{
+        float: right;
+        font-size: larger;
+        font-family: 'Courier New', Courier, monospace;}

@@ -1,0 +1,24 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+/*font-family: "Boldonse", system-ui;*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body {
+        font-family: "Boldonse", system-ui;
+        line-height: 1.6;
+        background-color: #dee046ce;
+        color: #333;}
+
+@import "./partials/index";
+@import "./partials/historia";
+@import "./partials/proceso";
+@import "./partials/variedades";
+@import "./partials/contacto";
+@import "./partials/header&footer";
+@import "./partials/mediaquerys";
