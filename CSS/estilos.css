@@ -11,7 +11,7 @@
 body {
   font-family: "Boldonse", system-ui;
   line-height: 1.6;
-  background-color: rgba(222, 224, 70, 0.8078431373);
+  background-color: #D1D361;
   color: #333;
 }
 
@@ -209,15 +209,20 @@ section p {
 #form {
   font-family: "Boldonse", system-ui;
   line-height: 1.6;
-  background-color: rgba(224, 188, 70, 0.8078431373);
+  background-color: #D1D361;
   color: #333;
   min-height: 100vh;
   width: 100%;
   display: flex;
 }
 
+.groot {
+  width: 3.125rem;
+}
+
 header {
   background-color: #6a9dfc;
+  background-image: linear-gradient(to bottom, #6a9dfc, #00bcfc, #00cfcc, #67d78a, #d1d361);
   color: rgb(2, 3, 88);
   padding: 40px 0;
   text-align: center;
