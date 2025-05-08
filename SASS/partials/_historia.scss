@@ -1,9 +1,6 @@
-.origen{font-family: "Bungee Spice", sans-serif;
-    font-weight: 400;
-    font-style: normal;}
-.produccion{font-family: "Bungee Spice", sans-serif;
-    font-weight: 400;
-    font-style: normal;}
-.importancia{font-family: "Bungee Spice", sans-serif;
-    font-weight: 400;
-    font-style: normal;}
+.origen{
+    @extend .origen;}
+.produccion{
+    @extend .origen;}
+.importancia{
+    @extend .origen;}

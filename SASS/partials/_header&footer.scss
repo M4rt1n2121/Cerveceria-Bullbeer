@@ -1,8 +1,8 @@
 
 header {
-    background-color: #6a9dfc;
-    background-image: linear-gradient(to bottom, #6a9dfc, #00bcfc, #00cfcc, #67d78a, #d1d361);
-    color: rgb(2, 3, 88);
+    background-color: $celeste;
+    background-image: linear-gradient(to bottom, $celeste, $celeste-cielo, $celeste-agua, $verde, $amarillo);
+    color: $azul;
     padding: 40px 0;
     text-align: center;}
 /* Imagen del banner */
@@ -12,7 +12,7 @@ header .Banner {
     max-height: 800px;
     object-fit: contain;}
 footer {
-        background-color: #6a9dfc;
+        background-color:$celeste;
         padding: 40px 0;
         text-align: center;}
     .facebook{
@@ -40,4 +40,4 @@ footer {
     .copyrigth{
         float: right;
         font-size: larger;
-        font-family: 'Courier New', Courier, monospace;}
+        font-family: $fuente-courier;}

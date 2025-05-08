@@ -1,16 +1,14 @@
 .proceso{
-    font-family: "Bungee Spice", sans-serif;
-    font-weight: 400;
-    font-style: normal;}
+    @extend .origen;
+    text-shadow: 17px 11px 4px rgba(0,0,0,0.6)
+}
 .maceracion{
-    font-size: 30px;
-    font-weight: bold;
-    text-shadow: 17px 11px 4px rgba(0,0,0,0.6);}
+    @extend .origen;
+    text-shadow: 17px 11px 4px rgba(0,0,0,0.6)}
 .hervido{
-    font-size: 30px;
-    font-weight: bold;
-    text-shadow: 17px 11px 4px rgba(0,0,0,0.6);}
+    @extend .origen;
+    text-shadow: 17px 11px 4px rgba(0,0,0,0.6)}
 .fermentacion{
-    font-size: 30px;
-    font-weight: bold;
-    text-shadow: 17px 11px 4px rgba(0,0,0,0.6);}
+    @extend .origen;
+    text-shadow: 17px 11px 4px rgba(0,0,0,0.6);
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*font*/
 @import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
 /*font-family: "Boldonse", system-ui;*/
@@ -13,6 +14,12 @@ body {
   line-height: 1.6;
   background-color: #D1D361;
   color: #333;
+}
+
+.origen, .fermentacion, .hervido, .maceracion, .proceso, .importancia, .produccion {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .contenedor-grid-1 img {
@@ -78,45 +85,67 @@ section p {
   margin-top: 20px;
 }
 
-.origen {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.contenedor-grid-1 .grid-img-1 {
+  animation-name: bulldog;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 3s;
 }
 
-.produccion {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@keyframes bulldog {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(25px);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  75% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(25px);
+  }
+}
+.contenedor-grid-1 .grid-img-2 {
+  animation-name: bulldog2;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 3s;
 }
 
-.importancia {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@keyframes bulldog2 {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-25px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  75% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
 }
-
 .proceso {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  text-shadow: 17px 11px 4px rgba(0, 0, 0, 0.6);
 }
 
 .maceracion {
-  font-size: 30px;
-  font-weight: bold;
   text-shadow: 17px 11px 4px rgba(0, 0, 0, 0.6);
 }
 
 .hervido {
-  font-size: 30px;
-  font-weight: bold;
   text-shadow: 17px 11px 4px rgba(0, 0, 0, 0.6);
 }
 
 .fermentacion {
-  font-size: 30px;
-  font-weight: bold;
   text-shadow: 17px 11px 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -178,46 +207,34 @@ section p {
   grid-area: imagen5;
 }
 
+#form {
+  font-family: "Boldonse", system-ui;
+  line-height: 1.6;
+  background-color: #d1d361; /* Asegurate que esta variable esté definida */
+  color: #333;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Apila el logo y el form uno debajo del otro */
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente en pantalla */
+  padding: 2em 1em; /* Espaciado interno */
+  box-sizing: border-box;
+}
+
 .form {
-  background-color: beige;
-  width: 90%;
-  max-width: 400px;
-}
-
-.form_input {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.form_cta {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.form {
-  background-color: #6a9dfc;
+  background-color: #6a9dfc; /* Asegurate que esta variable esté definida */
   margin: auto;
   width: 90%;
   max-width: 400px;
   border-radius: 1em;
   padding: 3.5em 1.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#logo {
-  max-width: 400px;
-  margin: 20px;
-}
-
-#form {
-  font-family: "Boldonse", system-ui;
-  line-height: 1.6;
-  background-color: #D1D361;
-  color: #333;
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-}
-
-.groot {
-  width: 3.125rem;
+.form_input,
+.form_cta {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
