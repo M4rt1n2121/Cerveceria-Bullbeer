@@ -301,7 +301,7 @@ footer {
 
 @media (max-width: 480px) {
   header .Banner {
-    width: 80%;
+    width: 100%;
   }
   nav ul {
     flex-direction: column;
@@ -309,6 +309,11 @@ footer {
   }
   nav ul li {
     margin: 10px 0;
+  }
+  .historia-img, .proceso-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
   .contenedor-grid-1 {
     grid-template-areas: "imagen1" "texto1" "texto2" "imagen2" "texto3";
@@ -345,7 +350,7 @@ footer {
 /*table*/
 @media (min-width: 481px) and (max-width: 769px) {
   header .Banner {
-    width: 50%;
+    width: 100%;
   }
   nav ul {
     flex-direction: row;
