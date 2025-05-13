@@ -1,8 +1,8 @@
-
+@use "variables";
 header {
-    background-color: $celeste;
-    background-image: linear-gradient(to bottom, $celeste, $celeste-cielo, $celeste-agua, $verde, $amarillo);
-    color: $azul;
+    background-color: variables.$celeste;
+    background-image: linear-gradient(to bottom, variables.$celeste, variables.$celeste-cielo, variables.$celeste-agua, variables.$verde, variables.$amarillo);
+    color: variables.$azul;
     padding: 40px 0;
     text-align: center;}
 /* Imagen del banner */
@@ -12,9 +12,11 @@ header .Banner {
     max-height: 800px;
     object-fit: contain;}
 footer {
-        background-color:$celeste;
-        padding: 40px 0;
-        text-align: center;}
+        background-color:variables.$celeste;
+        background-image: linear-gradient(to bottom, variables.$amarillo, variables.$verde,variables.$celeste-agua, variables.$celeste-cielo, variables.$celeste);
+        padding: 1em;
+        text-align: center;
+        margin-top: auto;}
     .facebook{
         float: left;
         width: 50px;
@@ -40,4 +42,4 @@ footer {
     .copyrigth{
         float: right;
         font-size: larger;
-        font-family: $fuente-courier;}
+        font-family: variables.$fuente-courier;}

@@ -3,20 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
 /*font-family: "Boldonse", system-ui;*/
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Boldonse", system-ui;
-  line-height: 1.6;
-  background-color: #D1D361;
-  color: #333;
-}
-
-.origen, .fermentacion, .hervido, .maceracion, .proceso, .importancia, .produccion {
+.origen, .proceso, .maceracion, .hervido, .fermentacion, .produccion, .importancia {
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -70,14 +57,14 @@ section {
 
 section h1 {
   font-size: 2.5rem;
-  color: #000000;
+  color: #0e0d0d;
   margin-bottom: 10px;
 }
 
 section p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.2rem;
-  color: #000000;
+  color: #0e0d0d;
 }
 
 .logo-black {
@@ -255,8 +242,10 @@ header .Banner {
 
 footer {
   background-color: #6a9dfc;
-  padding: 40px 0;
+  background-image: linear-gradient(to bottom, #d1d361, #67d78a, #00cfcc, #00bcfc, #6a9dfc);
+  padding: 1em;
   text-align: center;
+  margin-top: auto;
 }
 
 .facebook {
@@ -384,6 +373,22 @@ footer {
     bottom: 60px;
     right: 15px;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Boldonse", system-ui;
+  line-height: 1.6;
+  background-color: #D1D361;
+  color: #333;
 }
 
 /*# sourceMappingURL=estilos.css.map */

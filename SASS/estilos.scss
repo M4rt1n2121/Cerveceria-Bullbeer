@@ -1,3 +1,11 @@
+@use "./partials/variables" as variables; 
+@use "./partials/index" as index;
+@use "./partials/historia" as historia;
+@use "./partials/proceso" as proceso;
+@use "./partials/variedades" as variedades;
+@use "./partials/contacto" as contacto;
+@use "./partials/header&footer" as header;
+@use "./partials/mediaquerys" as mediaquerys;
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 /*font-family: "Boldonse", system-ui;*/
@@ -10,15 +18,12 @@
     padding: 0;
     box-sizing: border-box;}
 body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
         font-family: "Boldonse", system-ui;
         line-height: 1.6;
         background-color: #D1D361;
         color: #333;}
-@import "./partials/variables";
-@import "./partials/index";
-@import "./partials/historia";
-@import "./partials/proceso";
-@import "./partials/variedades";
-@import "./partials/contacto";
-@import "./partials/header&footer";
-@import "./partials/mediaquerys";
+
