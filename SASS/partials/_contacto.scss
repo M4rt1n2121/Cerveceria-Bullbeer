@@ -24,18 +24,43 @@
     -webkit-text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     -moz-text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     font-weight: bold;}
-
+.mapa {
+    width: 100%;
+    height: 300px;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.ubicacion {
+    font-family: "Boldonse", system-ui;
+    font-size: 2rem;
+    color: variables.$negro;
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    -webkit-text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    -moz-text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}   
 .form {
     background-color: variables.$celeste; /* Asegurate que esta variable esté definida */
     margin: auto;
     width: 90%;
-    max-width: 400px;
+    max-width:  80%;
     border-radius: 1em;
     padding: 3.5em 1.5em;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.form_input,
+.form_input{
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid variables.$negro; /* Asegurate que esta variable esté definida */
+    border-radius: 0.5em;
+    font-size: 1.2rem;
+    color: variables.$negro; /* Asegurate que esta variable esté definida */
+}
 .form_cta {
     font-family: Arial, Helvetica, sans-serif;
 }
