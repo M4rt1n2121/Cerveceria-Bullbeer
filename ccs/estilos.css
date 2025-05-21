@@ -9,18 +9,6 @@
   font-style: normal;
 }
 
-.bienvenidos {
-  font-family: "Boldonse", system-ui;
-  font-size: 2.5rem;
-  color: #0e0d0d;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -webkit-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -moz-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
 .contenedor-grid-1 img {
   width: 80%;
   height: 80%;
@@ -206,21 +194,6 @@ section p {
   grid-area: imagen5;
 }
 
-.grid-img-3:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s ease;
-}
-
-.grid-img-4:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s ease;
-}
-
-.grid-img-5:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s ease;
-}
-
 #form {
   font-family: "Boldonse", system-ui;
   line-height: 1.6;
@@ -234,19 +207,6 @@ section p {
   justify-content: center; /* Centra verticalmente en pantalla */
   padding: 2em 1em; /* Espaciado interno */
   box-sizing: border-box;
-}
-
-.tu_opinion {
-  font-family: "Boldonse", system-ui;
-  font-size: 2.5rem;
-  color: #0e0d0d;
-  margin-bottom: 1em;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -webkit-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -moz-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-weight: bold;
 }
 
 .form {
@@ -273,7 +233,7 @@ header {
 }
 
 /* Imagen del banner */
-header .banner {
+header .Banner {
   margin: 30px;
   width: 30%;
   max-height: 800px;

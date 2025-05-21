@@ -1,4 +1,15 @@
 @use "variables";
+.bienvenidos{
+    font-family: "Boldonse", system-ui;
+    font-size: 2.5rem;
+    color: variables.$negro;        
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    -webkit-text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    -moz-text-shadow: 2px 2px 4px rgba(0,0,0,0.5);      
+    }
 .contenedor-grid-1 img{
     width: 80%;
     height: 80%;
